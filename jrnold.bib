@@ -1985,7 +1985,7 @@
 }
 
 @Incollection{ArmaganDunsonClyde2011,
-  Title                    = {Generalized Beta Mixtures of Gaussians},
+  Title                    = {Generalized Beta Mixtures of {Gaussians}},
   Author                   = {Artin Armagan and David Dunson and Merlise Clyde},
   Booktitle                = {Advances in Neural Information Processing Systems 24},
   Editor                   = {J. Shawe-Taylor and R.S. Zemel and P. Bartlett and F.C.N. Pereira and K.Q. Weinberger},
@@ -1997,8 +1997,23 @@
   Timestamp                = {2013.04.30}
 }
 
+@Article{ArmaganDunsonLee2013a,
+  Title                    = {Generalized double {Pareto} shrinkage},
+  Author                   = {Artin Armagan and D. Dunson and J. Lee},
+  Journaltitle             = {Statistica Sinica},
+  Year                     = {2013},
+  Doi                      = {10.5705/ss.2011.048},
+  Pages                    = {119-143},
+  Url                      = {doi:http://dx.doi.org/10.5705/ss.2011.048},
+  Volume                   = {23},
+
+  Abstract                 = {We propose a generalized double Pareto prior for Bayesian shrinkage estimation and inferences in linear models. The prior can be obtained via a scale mixture of Laplace or normal distributions, forming a bridge between the Laplace and Normal-Jeffreys' priors. While it has a spike at zero like the Laplace density, it also has a Student's $t$-like tail behavior. Bayesian computation is straightforward via a simple Gibbs sampling algorithm. We investigate the properties of the maximum a posteriori estimator, as sparse estimation plays an important role in many problems, reveal connections with some well-established regularization procedures, and show some asymptotic results. The performance of the prior is tested through simulations and an application.},
+  Keywords                 = {Heavy tails, high-dimensional data, LASSO, maximum a posteriori estimation, relevance vector machine, robust prior, shrinkage estimation.},
+  Timestamp                = {2015.08.25}
+}
+
 @Article{ArmaganDunsonLee2011,
-  Title                    = {Generalized double Pareto shrinkage},
+  Title                    = {Generalizeshrinkage{Pareto} shrinkage},
   Author                   = {{Armagan}, A. and {Dunson}, D. and {Lee}, J.},
   Year                     = {2011},
   Eprint                   = {1104.0861},
@@ -4851,6 +4866,21 @@
   Timestamp                = {2008.02.29}
 }
 
+@Article{Betancourt2013a,
+  Title                    = {Generalizing the No-U-Turn Sampler to Riemannian Manifolds},
+  Author                   = {M. J. Betancourt},
+  Year                     = {2013},
+
+  Month                    = apr,
+
+  __markedentry            = {[jrnold:6]},
+  Abstract                 = {Hamiltonian Monte Carlo provides efficient Markov transitions at the expense of introducing two free parameters: a step size and total integration time. Because the step size controls discretization error it can be readily tuned to achieve certain accuracy criteria, but the total integration time is left unconstrained. Recently Hoffman and Gelman proposed a criterion for tuning the integration time in certain systems with their No U-Turn Sampler, or NUTS. In this paper I investigate the dynamical basis for the success of NUTS and generalize it to Riemannian Manifold Hamiltonian Monte Carlo.},
+  Comments                 = {8 pages, 6 figures},
+  Eprint                   = {1304.1920},
+  Oai2identifier           = {1304.1920},
+  Timestamp                = {2015.08.26}
+}
+
 @Book{Betts2001,
   Title                    = {Conflict After the Cold War: Arguments on the Causes of War and Peace},
   Author                   = {Betts, Richard K.},
@@ -4875,6 +4905,18 @@
   Owner                    = {jrnold},
   Tags                     = {Dartmouth GOVT5 },
   Timestamp                = {2008.08.13}
+}
+
+@Article{BhadraDattaPolsonEtAl2015a,
+  Title                    = {The Horseshoe+ Estimator of Ultra-Sparse Signals},
+  Author                   = {Anindya Bhadra and Jyotishka Datta and Nicholas G. Polson and Brandon Willard},
+  Year                     = {2015},
+
+  Month                    = feb,
+  Abstract                 = {We propose a new prior for ultra-sparse signal detection that we term the "horseshoe+ prior." The horseshoe+ prior is a natural extension of the horseshoe prior that has achieved success in the estimation and detection of sparse signals and has been shown to possess a number of desirable theoretical properties while enjoying computational feasibility in high dimensions. The horseshoe+ prior builds upon these advantages. Our work proves that the horseshoe+ posterior concentrates at a rate faster than that of the horseshoe in the Kullback-Leibler (K-L) sense. We also establish theoretically that the proposed estimator has lower posterior mean squared error in estimating signals compared to the horseshoe and achieves the optimal Bayes risk in testing up to a constant. For global-local scale mixture priors, we develop a new technique for analyzing the marginal sparse prior densities using the class of Meijer-G functions. In simulations, the horseshoe+ estimator demonstrates superior performance in a standard design setting against competing methods, including the horseshoe and Dirichlet-Laplace estimators. We conclude with an illustration on a prostate cancer data set and by pointing out some directions for future research.},
+  Eprint                   = {1502.00560},
+  Oai2identifier           = {1502.00560},
+  Timestamp                = {2015.08.25}
 }
 
 @Incollection{Bhagwati1993,
@@ -4933,6 +4975,27 @@
   Keywords                 = {Mathematics - Statistics Theory},
   Owner                    = {jrnold},
   Timestamp                = {2014.07.07}
+}
+
+@Article{doi:10.1080/01621459.2014.960967,
+  Title                    = {Dirichlet-Laplace priors for optimal shrinkage},
+  Author                   = {Anirban Bhattacharya and Debdeep Pati and Natesh S. Pillai and David B. Dunson},
+  Year                     = {0},
+  Doi                      = {10.1080/01621459.2014.960967},
+  Eprint                   = { 
+ http://dx.doi.org/10.1080/01621459.2014.960967
+ 
+},
+  Number                   = {ja},
+  Pages                    = {00-00},
+  Url                      = { 
+ http://dx.doi.org/10.1080/01621459.2014.960967
+ 
+},
+  Volume                   = {0},
+
+  Abstract                 = { Penalized regression methods, such as L1 regularization, are routinely used in high-dimensional applications, and there is a rich literature on optimality properties under sparsity assumptions. In the Bayesian paradigm, sparsity is routinely induced through two-component mixture priors having a probability mass at zero, but such priors encounter daunting computational problems in high dimensions. This has motivated continuous shrinkage priors, which can be expressed as global-local scale mixtures of Gaussians, facilitating computation. In contrast to the frequentist literature, little is known about the properties of such priors and the convergence and concentration of the corresponding posterior distribution. In this article, we propose a new class of DirichletâLaplace priors, which possess optimal posterior concentration and lead to efficient posterior computation. Finite sample performance of DirichletâLaplace priors relative to alternatives is assessed in simulated and real data examples. },
+  Journal                  = {Journal of the American Statistical Association}
 }
 
 @Unpublished{Bhattacharya2007,
@@ -17191,6 +17254,18 @@
   Timestamp                = {2008.06.20}
 }
 
+@Techreport{Gilbert1993a,
+  Title                    = {State Space and ARMA Models: An Overview of the Equivalence},
+  Author                   = {Paul D. Gilbert},
+  Institution              = {Bank of Canada},
+  Year                     = {1993},
+  Number                   = {94-3},
+  Type                     = {Technical Report},
+  Url                      = {http://www.bankofcanada.ca/wp-content/uploads/2010/10/gil93.pdf},
+
+  Timestamp                = {2015.08.25}
+}
+
 @Book{gill2008_bayes,
   Title                    = {{Bayesian methods: a social and behavioral sciences approach}},
   Author                   = {Gill, Jeff},
@@ -20050,6 +20125,23 @@ thodology and sources that went into its creation.},
   Timestamp                = {2013.05.02}
 }
 
+@Article{HarveyTrimburDijk2007a,
+  Title                    = {Trends and cycles in economic time series: A Bayesian approach },
+  Author                   = {Andrew C. Harvey and Thomas M. Trimbur and Herman K. Van Dijk},
+  Year                     = {2007},
+  Doi                      = {http://dx.doi.org/10.1016/j.jeconom.2006.07.006},
+  ISSN                     = {0304-4076},
+  Number                   = {2},
+  Pages                    = {618 - 649},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0304407606001497},
+  Volume                   = {140},
+
+  Abstract                 = {Trends and cyclical components in economic time series are modeled in a Bayesian framework. This enables prior notions about the duration of cycles to be used, while the generalized class of stochastic cycles employed allows the possibility of relatively smooth cycles being extracted. The posterior distributions of such underlying cycles can be very informative for policy makers, particularly with regard to the size and direction of the output gap and potential turning points. From the technical point of view a contribution is made in investigating the most appropriate prior distributions for the parameters in the cyclical components and in developing Markov chain Monte Carlo methods for both univariate and multivariate models. Applications to \{US\} macroeconomic series are presented. },
+  Journal                  = {Journal of Econometrics },
+  Keywords                 = {Output gap},
+  Timestamp                = {2015.08.25}
+}
+
 @Article{Hausman2001,
   Title                    = {Mismeasured Variables in Econometric Analysis: Problems from the Right and Problems from the Left},
   Author                   = {Hausman, Jerry},
@@ -21489,6 +21581,21 @@ thodology and sources that went into its creation.},
   Timestamp                = {2013.09.14}
 }
 
+@Article{HoffmanGelm2011a,
+  Title                    = {The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo},
+  Author                   = {Matthew D. Hoffman and Andrew Gelman},
+  Year                     = {2011},
+
+  Month                    = nov,
+
+  __markedentry            = {[jrnold:]},
+  Abstract                 = {Hamiltonian Monte Carlo (HMC) is a Markov chain Monte Carlo (MCMC) algorithm that avoids the random walk behavior and sensitivity to correlated parameters that plague many MCMC methods by taking a series of steps informed by first-order gradient information. These features allow it to converge to high-dimensional target distributions much more quickly than simpler methods such as random walk Metropolis or Gibbs sampling. However, HMC's performance is highly sensitive to two user-specified parameters: a step size {\epsilon} and a desired number of steps L. In particular, if L is too small then the algorithm exhibits undesirable random walk behavior, while if L is too large the algorithm wastes computation. We introduce the No-U-Turn Sampler (NUTS), an extension to HMC that eliminates the need to set a number of steps L. NUTS uses a recursive algorithm to build a set of likely candidate points that spans a wide swath of the target distribution, stopping automatically when it starts to double back and retrace its steps. Empirically, NUTS perform at least as efficiently as and sometimes more efficiently than a well tuned standard HMC method, without requiring user intervention or costly tuning runs. We also derive a method for adapting the step size parameter {\epsilon} on the fly based on primal-dual averaging. NUTS can thus be used with no hand-tuning at all. NUTS is also suitable for applications such as BUGS-style automatic inference engines that require efficient "turnkey" sampling algorithms.},
+  Comments                 = {30 pages, 7 figures},
+  Eprint                   = {1111.4246},
+  Oai2identifier           = {1111.4246},
+  Timestamp                = {2015.08.26}
+}
+
 @Article{HoffmanGelman2011,
   Title                    = {The No-{U}-Turn Sampler: Adaptively Setting Path Lengths in {H}amiltonian {M}onte {C}arlo},
   Author                   = {Matthew D. Hoffman and Andrew Gelman},
@@ -21587,6 +21694,26 @@ thodology and sources that went into its creation.},
   Lccn                     = {2010027208},
   Owner                    = {jrnold},
   Timestamp                = {2013.08.01}
+}
+
+@Article{HomanGelman2014a,
+  Title                    = {The No-U-turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo},
+  Author                   = {Homan, Matthew D. and Gelman, Andrew},
+  Year                     = {2014},
+  ISSN                     = {1532-4435},
+  Month                    = jan,
+  Number                   = {1},
+  Pages                    = {1593--1623},
+  Url                      = {http://dl.acm.org/citation.cfm?id=2627435.2638586},
+  Volume                   = {15},
+
+  Acmid                    = {2638586},
+  Issue_date               = {January 2014},
+  Journal                  = {Journal of Machine Learning Research},
+  Keywords                 = {Bayesian inference, Hamiltonian Monte Carlo, Markov chain Monte Carlo, adaptive Monte Carlo, dual averaging},
+  Numpages                 = {31},
+  Publisher                = {JMLR.org},
+  Timestamp                = {2015.08.26}
 }
 
 @Book{HomansDana1861,
@@ -24304,6 +24431,21 @@ thodology and sources that went into its creation.},
 
   Owner                    = {jrnold},
   Timestamp                = {2010.10.31}
+}
+
+@Article{Keele2015a,
+  Title                    = {The Statistics of Causal Inference: A View from Political Methodology},
+  Author                   = {Keele, Luke},
+  Year                     = {2015},
+  Doi                      = {10.1093/pan/mpv007},
+  Eprint                   = {http://pan.oxfordjournals.org/content/23/3/313.full.pdf+html},
+  Number                   = {3},
+  Pages                    = {313-335},
+  Url                      = {http://pan.oxfordjournals.org/content/23/3/313.abstract},
+  Volume                   = {23},
+
+  Abstract                 = {Many areas of political science focus on causal questions. Evidence from statistical analyses is often used to make the case for causal relationships. While statistical analyses can help establish causal relationships, it can also provide strong evidence of causality where none exists. In this essay, I provide an overview of the statistics of causal inference. Instead of focusing on specific statistical methods, such as matching, I focus more on the assumptions needed to give statistical estimates a causal interpretation. Such assumptions are often referred to as identification assumptions, and these assumptions are critical to any statistical analysis about causal effects. I outline a wide range of identification assumptions and highlight the design-based approach to causal inference. I conclude with an overview of statistical methods that are frequently used for causal inference.},
+  Journal                  = {Political Analysis}
 }
 
 @Article{Keller2004,
@@ -28937,6 +29079,18 @@ thodology and sources that went into its creation.},
   Timestamp                = {2013.01.23}
 }
 
+@Article{MakalicSchmidt2015a,
+  Title                    = {A simple sampler for the horseshoe estimator},
+  Author                   = {Enes Makalic and Daniel F. Schmidt},
+  Year                     = {2015},
+
+  Month                    = aug,
+  Abstract                 = {In this note we derive a simple Bayesian sampler for linear regression with the horseshoe hierarchy. A new interpretation of the horseshoe model is presented, and extensions to logistic regression and alternative hierarchies, such as horseshoe$+$, are discussed.},
+  Eprint                   = {1508.03884},
+  Oai2identifier           = {1508.03884},
+  Timestamp                = {2015.08.25}
+}
+
 @Book{Malabre2003,
   Title                    = {Lost Prophets: An Insider's History of the Modern Economists},
   Author                   = {Malabre, Alfred L.},
@@ -30427,7 +30581,7 @@ thodology and sources that went into its creation.},
   Timestamp                = {2009.01.19}
 }
 
-@Book{medbery1870men,
+@Book{Medbery1870a,
   Title                    = {Men and Mysteries of Wall Street},
   Author                   = {Medbery, James K.},
   Year                     = {1870},
@@ -33674,6 +33828,22 @@ thodology and sources that went into its creation.},
   Timestamp                = {2008.02.28}
 }
 
+@Article{PasKleijnVaart2014a,
+  Title                    = {The Horseshoe Estimator: Posterior Concentration around Nearly Black Vectors},
+  Author                   = {S. L. van der Pas and B. J. K. Kleijn and A. W. van der Vaart},
+  Journal                  = {Electron. J. Statist. Volume},
+  Year                     = {2014},
+
+  Month                    = apr,
+  Pages                    = {Number2,2585-2618},
+  Volume                   = {8,},
+  Abstract                 = {We consider the horseshoe estimator due to Carvalho, Polson and Scott (2010) for the multivariate normal mean model in the situation that the mean vector is sparse in the nearly black sense. We assume the frequentist framework where the data is generated according to a fixed mean vector. We show that if the number of nonzero parameters of the mean vector is known, the horseshoe estimator attains the minimax $\ell_2$ risk, possibly up to a multiplicative constant. We provide conditions under which the horseshoe estimator combined with an empirical Bayes estimate of the number of nonzero means still yields the minimax risk. We furthermore prove an upper bound on the rate of contraction of the posterior distribution around the horseshoe estimator, and a lower bound on the posterior variance. These bounds indicate that the posterior distribution of the horseshoe prior may be more informative than that of other one-component priors, including the Lasso.},
+  Comments                 = {This version differs from the final published version in pagination and typographical detail; Available at http://projecteuclid.org/euclid.ejs/1418134265},
+  Eprint                   = {1404.0202},
+  Oai2identifier           = {1404.0202},
+  Timestamp                = {2015.08.25}
+}
+
 @Article{Pastor-SatorrasVazquezVespignani2002,
   Title                    = {Dynamical and Correlation Properties of the Internet},
   Author                   = {Pastor-Satorras, Romualdo and Vazquez, Alexei and Vespignani, Alessandro},
@@ -34092,7 +34262,7 @@ thodology and sources that went into its creation.},
   Owner                    = {jrnold}
 }
 
-@Article{petris2010_r_packag,
+@Article{Petris2010a,
   Title                    = {An {R} Package for Dynamic Linear Models},
   Author                   = {Giovanni Petris},
   Year                     = {2010},
@@ -34126,7 +34296,7 @@ thodology and sources that went into its creation.},
 }
 
 @Book{PetrisPetroneEtAl2009,
-  Title                    = {{Dynamic Linear Models with R}},
+  Title                    = {Dynamic Linear Models with {R}},
   Author                   = {Petris, G. and Petrone, S. and Campagnoli, P.},
   Year                     = {2009},
   ISBN                     = {9780387772370},
@@ -34342,6 +34512,22 @@ thodology and sources that went into its creation.},
 
   Lccn                     = {83042572},
   Owner                    = {jrnold}
+}
+
+@Article{PilsterBoehmelt2011a,
+  Title                    = {Coup-Proofing and Military Effectiveness in Interstate Wars, 1967–99},
+  Author                   = {Pilster, Ulrich and Böhmelt, Tobias},
+  Year                     = {2011},
+  Doi                      = {10.1177/0738894211413062},
+  Eprint                   = {http://cmp.sagepub.com/content/28/4/331.full.pdf+html},
+  Number                   = {4},
+  Pages                    = {331-350},
+  Url                      = {http://cmp.sagepub.com/content/28/4/331.abstract},
+  Volume                   = {28},
+
+  Abstract                 = {This study examines the influence of civil–military relations on military effectiveness. More specifically, we investigate how coup-proofing, that is, the strategies and tactics employed to prevent the military from seizing power, affects battlefield performance. The main argument claims that coup-proofing has a negative impact on soldiers’ leadership qualities, initiative, and the ability to coordinate different military units. Ultimately, the higher a country’s coup-proofing efforts relative to its opponent, the worse its effectiveness on the battlefield. We test this hypothesis using data on battlefield outcomes and coup-proofing between 1967 and 1999.},
+  Journal                  = {Conflict Management and Peace Science},
+  Timestamp                = {2015.08.25}
 }
 
 @Article{PintoTimmons2005,
@@ -41495,6 +41681,16 @@ thodology and sources that went into its creation.},
   Timestamp                = {2008.10.25}
 }
 
+@Manual{Stan2015a,
+  Title                    = {Stan Modeling Language Users Guide and Reference Manual,
+ Version 2.7.0},
+  Author                   = {{Stan Development Team}},
+  Year                     = {2015},
+  Url                      = {http://mc-stan.org/},
+
+  Timestamp                = {2015.08.26}
+}
+
 @Misc{Stan2014,
   Title                    = {Stan: A C++ Library for Probability and Sampling, Version 2.2},
   Author                   = {{Stan Development Team}},
@@ -45335,8 +45531,6 @@ of cases in a manner that was previously impossible.}
   Pages                    = {--},
   Publisher                = {Cornell University Press},
   Url                      = {http://site.ebrary.com/lib/uwash/docDetail.action?docID=10678383},
-
-  __markedentry            = {[jrnold:]},
   Address                  = {Ithaca, NY, USA},
   ISSN                     = {9780801468179},
   Keywords                 = {War -- Causes., Limited war., Low-intensity conflicts (Military science), Total war.},
@@ -45524,7 +45718,7 @@ of cases in a manner that was previously impossible.}
 }
 
 @Book{WestHarrison1997,
-  Title                    = {{Bayesian forecasting and dynamic models}},
+  Title                    = {{Bayesian} forecasting and dynamic models},
   Author                   = {West, M. and Harrison, J.},
   Year                     = {1997},
   ISBN                     = {9780387947259},
