@@ -21260,6 +21260,7 @@ thodology and sources that went into its creation.},
   Year                     = {2011},
   Eprint                   = {1111.4246},
   Month                    = nov,
+
   Abstract                 = {Hamiltonian Monte Carlo (HMC) is a Markov chain Monte Carlo (MCMC) algorithm that avoids the random walk behavior and sensitivity to correlated parameters that plague many MCMC methods by taking a series of steps informed by first-order gradient information. These features allow it to converge to high-dimensional target distributions much more quickly than simpler methods such as random walk Metropolis or Gibbs sampling. However, HMC's performance is highly sensitive to two user-specified parameters: a step size {\epsilon} and a desired number of steps L. In particular, if L is too small then the algorithm exhibits undesirable random walk behavior, while if L is too large the algorithm wastes computation. We introduce the No-U-Turn Sampler (NUTS), an extension to HMC that eliminates the need to set a number of steps L. NUTS uses a recursive algorithm to build a set of likely candidate points that spans a wide swath of the target distribution, stopping automatically when it starts to double back and retrace its steps. Empirically, NUTS perform at least as efficiently as and sometimes more efficiently than a well tuned standard HMC method, without requiring user intervention or costly tuning runs. We also derive a method for adapting the step size parameter {\epsilon} on the fly based on primal-dual averaging. NUTS can thus be used with no hand-tuning at all. NUTS is also suitable for applications such as BUGS-style automatic inference engines that require efficient "turnkey" sampling algorithms.},
   Comments                 = {30 pages, 7 figures},
   Oai2identifier           = {1111.4246},
@@ -43270,12 +43271,11 @@ thodology and sources that went into its creation.},
   Title                    = {{Metropolis-Hastings} within Partially Collapsed {Gibbs} Samplers},
   Author                   = {David A. {van Dyk} and Xiyun Jiao},
   Year                     = {2013},
-
+  Eprint                   = {1309.3217},
   Month                    = sep,
 
   __markedentry            = {[jrnold:6]},
   Abstract                 = {The Partially Collapsed Gibbs (PCG) sampler offers a new strategy for improving the convergence of a Gibbs sampler. PCG achieves faster convergence by reducing the conditioning in some of the draws of its parent Gibbs sampler. Although this can significantly improve convergence, care must be taken to ensure that the stationary distribution is preserved. The conditional distributions sampled in a PCG sampler may be incompatible and permuting their order may upset the stationary distribution of the chain. Extra care must be taken when Metropolis-Hastings (MH) updates are used in some or all of the updates. Reducing the conditioning in an MH within Gibbs sampler can change the stationary distribution, even when the PCG sampler would work perfectly if MH were not used. In fact, a number of samplers of this sort that have been advocated in the literature do not actually have the target stationary distributions. In this article, we illustrate the challenges that may arise when using MH within a PCG sampler and develop a general strategy for using such updates while maintaining the desired stationary distribution. Theoretical arguments provide guidance when choosing between different MH within PCG sampling schemes. Finally we illustrate the MH within PCG sampler and its computational advantage using several examples from our applied work.},
-  Eprint                   = {1309.3217},
   Oai2identifier           = {1309.3217},
   Timestamp                = {2015.09.06}
 }
@@ -44484,7 +44484,7 @@ thodology and sources that went into its creation.},
 }
 
 @Article{Watanabe2010,
-  Title                    = {Asymptotic Equivalence of Bayes Cross Validation and WiWide Applicable Information Criterion in Singular Learning Theory},
+  Title                    = {Asymptotic Equivalence of Bayes Cross Validation and Widely Applicable Information Criterion in Singular Learning Theory},
   Author                   = {Watanabe, Sumio},
   Journaltitle             = {Journal of Machine Learning Research},
   Year                     = {2010},
