@@ -10,66 +10,69 @@
         <node name="jabref">
           <map>
             <entry key="bibLocAsPrimaryDir" value="false"/>
-            <entry key="searchGen" value="true"/>
             <entry key="markedEntryBackground2" value="255:180:160"/>
             <entry key="warnBeforeOverwritingKey" value="true"/>
             <entry key="listOfFileColumns" value=""/>
-            <entry key="sizeX" value="1440"/>
+            <entry key="searchGen" value="true"/>
+            <entry key="sizeX" value="1076"/>
             <entry key="fileDirectory" value=""/>
+            <entry key="CleanUpConvertToBiblatex" value="true"/>
+            <entry key="autoAssignGroup" value="true"/>
+            <entry key="secSort" value=""/>
             <entry key="avoidOverwritingKey" value="false"/>
             <entry key="memoryStickMode" value="true"/>
-            <entry key="secSort" value=""/>
-            <entry key="autoAssignGroup" value="true"/>
             <entry key="disableOnMultipleSelection" value="false"/>
             <entry key="groupShowDynamic" value="true"/>
-            <entry key="searchDialogWidth" value="650"/>
-            <entry key="caseSensitiveSearch" value="false"/>
             <entry key="tableReqFieldBackground" value="230:235:255"/>
+            <entry key="caseSensitiveSearch" value="false"/>
             <entry key="CleanUpDOI" value="true"/>
+            <entry key="searchDialogWidth" value="650"/>
             <entry key="autoDoubleBraces" value="false"/>
             <entry key="useTimeStamp" value="true"/>
-            <entry key="exportInSpecifiedOrder" value="false"/>
-            <entry key="autoComplete" value="true"/>
+            <entry key="autoComplete" value="false"/>
+            <entry key="exportInSpecifiedOrder" value="true"/>
             <entry key="sizeY" value="877"/>
-            <entry key="windowMaximised" value="true"/>
-            <entry key="showSearchInDialog" value="false"/>
+            <entry key="saveSecDescending" value="false"/>
             <entry key="activeFieldEditorBackgroundColor" value="220:220:255"/>
             <entry key="autoCompLF" value="false"/>
+            <entry key="windowMaximised" value="false"/>
             <entry key="saveTerSort" value=""/>
-            <entry key="doNotResolveStringsFor" value="url"/>
+            <entry key="showSearchInDialog" value="false"/>
             <entry key="allowTableEditing" value="false"/>
-            <entry key="floatMarkedEntries" value="true"/>
+            <entry key="doNotResolveStringsFor" value="url"/>
             <entry key="timeStampFormat" value="yyyy.MM.dd"/>
             <entry key="writefieldUserdefinedOrder" value="author;title;journal;year;volume;number;pages;month;note;volume;pages;part;eid"/>
-            <entry key="namesLastOnly" value="false"/>
-            <entry key="saveSecDescending" value="true"/>
+            <entry key="floatMarkedEntries" value="true"/>
             <entry key="defaultLabelPattern" value="[authors3][year]"/>
-            <entry key="useRemoteServer" value="false"/>
+            <entry key="namesLastOnly" value="false"/>
+            <entry key="useRemoteServer" value="true"/>
             <entry key="proxyPort" value="my proxy port"/>
             <entry key="incompleteEntryBackground" value="250:175:175"/>
             <entry key="savePriSort" value="bibtexkey"/>
             <entry key="exportInOriginalOrder" value="false"/>
-            <entry key="priSort" value="timestamp"/>
+            <entry key="priSort" value="author"/>
+            <entry key="webSearchVisible" value="true"/>
             <entry key="useProxy" value="false"/>
             <entry key="autolinkExactKeyOnly" value="true"/>
-            <entry key="tableShowGrid" value="false"/>
+            <entry key="markedEntryBackground3" value="255:120:120"/>
             <entry key="namesAsIs" value="false"/>
             <entry key="lookAndFeel" value=""/>
             <entry key="useUnitFormatterOnSearch" value="true"/>
-            <entry key="defaultEncoding" value="ISO8859_1"/>
-            <entry key="markedEntryBackground3" value="255:120:120"/>
-            <entry key="fontSize" value="12"/>
+            <entry key="defaultEncoding" value="ISO8859-1"/>
+            <entry key="tableShowGrid" value="false"/>
             <entry key="autoOpenForm" value="true"/>
             <entry key="valueDelimiters" value="1"/>
-            <entry key="floatSearch" value="false"/>
+            <entry key="fontSize" value="12"/>
+            <entry key="floatSearch" value="true"/>
             <entry key="arxivColumn" value="false"/>
             <entry key="toolbarVisible" value="true"/>
             <entry key="autoResizeMode" value="4"/>
             <entry key="proxyHostname" value="my proxy host"/>
             <entry key="psDirectory" value=""/>
             <entry key="CleanUpRenamePDFonlyRelativePaths" value="false"/>
-            <entry key="stringsPosY" value="221"/>
+            <entry key="stringsPosY" value="329"/>
             <entry key="groupExpandTree" value="true"/>
+            <entry key="duplicatesSizeY" value="600"/>
             <entry key="tableRowPadding" value="8"/>
             <entry key="biblatexMode" value="true"/>
             <entry key="groupShowIcons" value="true"/>
@@ -81,60 +84,62 @@
             <entry key="useNativeFileDialogOnMac" value="false"/>
             <entry key="showSource" value="true"/>
             <entry key="saveInStandardOrder" value="true"/>
-            <entry key="importInspectionDialogHeight" value="650"/>
             <entry key="importWorkingDirectory" value="/Users/jrnold/Downloads"/>
-            <entry key="timeStampField" value="timestamp"/>
-            <entry key="resolveStringsAllFields" value="false"/>
-            <entry key="exportInTitleOrder" value="false"/>
-            <entry key="dialogWarningForEmptyKey" value="true"/>
+            <entry key="importInspectionDialogHeight" value="650"/>
+            <entry key="defaultOwner" value="jrnold"/>
+            <entry key="useOwner" value="false"/>
             <entry key="writeFieldAddSpaces" value="true"/>
-            <entry key="autoSave" value="true"/>
+            <entry key="timeStampField" value="timestamp"/>
+            <entry key="exportInTitleOrder" value="false"/>
+            <entry key="autoCompFF" value="false"/>
             <entry key="backup" value="true"/>
             <entry key="defaultShowSource" value="false"/>
             <entry key="searchOpt" value="true"/>
-            <entry key="useOwner" value="false"/>
-            <entry key="autoCompFF" value="false"/>
-            <entry key="defaultOwner" value="jrnold"/>
             <entry key="includeEmptyFields" value="false"/>
-            <entry key="previewPanelHeight" value="200"/>
+            <entry key="dialogWarningForEmptyKey" value="true"/>
+            <entry key="autoSave" value="true"/>
+            <entry key="previewPanelHeight" value="549"/>
+            <entry key="resolveStringsAllFields" value="false"/>
             <entry key="markedEntryBackground4" value="255:75:75"/>
-            <entry key="pdfPreview" value="false"/>
             <entry key="KeyPatternRegex" value=""/>
-            <entry key="updateTimestamp" value="false"/>
+            <entry key="pdfPreview" value="false"/>
+            <entry key="updateTimestamp" value="true"/>
             <entry key="fontFamily" value="SansSerif"/>
-            <entry key="CleanUpSuperscripts" value="true"/>
             <entry key="wrapFieldLine" value="false"/>
+            <entry key="CleanUpSuperscripts" value="true"/>
             <entry key="markImportedEntries" value="true"/>
-            <entry key="secDescending" value="false"/>
             <entry key="useIEEEAbrv" value="true"/>
+            <entry key="secDescending" value="false"/>
             <entry key="autoCompleteFields" value="author;editor;title;journal;publisher;keywords;crossref"/>
-            <entry key="entryEditorHeight" value="386"/>
+            <entry key="entryEditorHeight" value="302"/>
             <entry key="CleanUpMonth" value="true"/>
-            <entry key="importDefaultPDFimportStyle" value="2"/>
             <entry key="regExpSearch" value="true"/>
+            <entry key="unmarkAllEntriesBeforeImporting" value="false"/>
             <entry key="tableText" value="0:0:0"/>
-            <entry key="unmarkAllEntriesBeforeImporting" value="true"/>
-            <entry key="saveSecSort" value="author"/>
-            <entry key="fieldEditorTextColor" value="0:0:0"/>
-            <entry key="exportSecSort" value="author"/>
+            <entry key="importDefaultPDFimportStyle" value="2"/>
+            <entry key="saveSecSort" value=""/>
             <entry key="searchPanelVisible" value="true"/>
+            <entry key="duplicatesPosY" value="329"/>
             <entry key="openFoldersOfAttachedFiles" value="false"/>
-            <entry key="lastEdited" value="/Users/jrnold/Documents/projects/bib/jrnold.bib"/>
             <entry key="showOneLetterHeadingForIconColumns" value="false"/>
+            <entry key="lastEdited" value="/Users/jrnold/Documents/projects/bib/jrnold.bib;/Users/jrnold/Documents/projects/ssmodels-in-stan/doc/ssmodels-in-stan.bib;/Users/jrnold/Documents/projects/pols503-notes/pols503-notes.bib"/>
+            <entry key="fieldEditorTextColor" value="0:0:0"/>
             <entry key="sidePaneWidth" value="294"/>
             <entry key="urlColumn" value="true"/>
             <entry key="KeyPatternReplacement" value=""/>
-            <entry key="recentFiles" value="/Users/jrnold/Dropbox/bibtex/jabref.bib;/Users/jrnold/Documents/bonds_and_battles/paper/bonds_and_battles.bib;/Users/jrnold/Documents/projects/bib/jrnold.bib"/>
-            <entry key="exportInStandardOrder" value="true"/>
+            <entry key="recentFiles" value="/Users/jrnold/Documents/projects/language_lgbt/lgbt.bib;/Users/jrnold/Documents/projects/ssmodels-in-stan/doc/ssmodels-in-stan.bib;/Users/jrnold/Documents/projects/bib/jrnold.bib;/Users/jrnold/Documents/projects/pols503-notes/pols503-notes.bib;/Users/jrnold/Documents/projects/acw_battle_data/acwbd.bib;/Users/jrnold/Downloads/This_Republic_of_Suffering.bibtex;/Users/jrnold/Dropbox/Arnold-Chatagnier-Hollibaugh/acw_generals.bib;/Users/jrnold/Documents/bonds_and_battles/paper/bonds_and_battles.bib"/>
+            <entry key="exportSecSort" value=""/>
+            <entry key="tableBackground" value="255:255:255"/>
             <entry key="emailSubject" value="References"/>
             <entry key="runAutomaticFileSearch" value="false"/>
-            <entry key="tableBackground" value="255:255:255"/>
-            <entry key="workingDirectory" value="/Users/jrnold/Downloads/tandf_uasa20AxA_00.bib"/>
+            <entry key="workingDirectory" value="/Users/jrnold/Downloads/uchicago_jle55_339.bib"/>
+            <entry key="exportInStandardOrder" value="true"/>
             <entry key="highLightWords" value="true"/>
-            <entry key="CleanUpMakePathsRelative" value="true"/>
-            <entry key="useImportInspectionDialogForSingle" value="true"/>
-            <entry key="newline" value="&#10;"/>
             <entry key="enforceLegalBibtexKey" value="true"/>
+            <entry key="CleanUpMakePathsRelative" value="false"/>
+            <entry key="newline" value="&#10;"/>
+            <entry key="useImportInspectionDialogForSingle" value="true"/>
+            <entry key="mainWindowSizeY" value="877"/>
             <entry key="namesFf" value="false"/>
             <entry key="searchDialogHeight" value="500"/>
             <entry key="exportPriDescending" value="false"/>
@@ -142,10 +147,10 @@
             <entry key="markedEntryBackground5" value="220:255:220"/>
             <entry key="exportPriSort" value="bibtexkey"/>
             <entry key="saveInOriginalOrder" value="false"/>
+            <entry key="validFieldBackgroundColor" value="255:255:255"/>
             <entry key="allowFileAutoOpenBrowse" value="true"/>
             <entry key="incrementS" value="false"/>
             <entry key="importAlwaysUsePDFImportStyle" value="false"/>
-            <entry key="validFieldBackgroundColor" value="255:255:255"/>
             <entry key="gridColor" value="210:210:210"/>
             <entry key="selectS" value="false"/>
             <entry key="useXmpPrivacyFilter" value="false"/>
@@ -154,44 +159,48 @@
             <entry key="useRegExpSearch" value="false"/>
             <entry key="invalidFieldBackgroundColor" value="255:0:0"/>
             <entry key="filechooserDisableRename" value="true"/>
-            <entry key="posX" value="0"/>
-            <entry key="preview0" value="&lt;font face=&quot;arial&quot;&gt;&lt;b&gt;&lt;i&gt;\bibtextype&lt;/i&gt;&lt;a name=&quot;\bibtexkey&quot;&gt;\begin{bibtexkey} (\bibtexkey)&lt;/a&gt;\end{bibtexkey}&lt;/b&gt;&lt;br&gt;__NEWLINE__\begin{author} \format[Authors(LastFirst,Initials,Semicolon,Amp),HTMLChars]{\author}&lt;BR&gt;\end{author}__NEWLINE__\begin{editor} \format[Authors(LastFirst,Initials,Semicolon,Amp),HTMLChars]{\editor} &lt;i&gt;(\format[IfPlural(Eds.,Ed.)]{\editor})&lt;/i&gt;&lt;BR&gt;\end{editor}__NEWLINE__\begin{title} \format[HTMLChars]{\title} \end{title}&lt;BR&gt;__NEWLINE__\begin{chapter} \format[HTMLChars]{\chapter}&lt;BR&gt;\end{chapter}__NEWLINE__\begin{journal} &lt;em&gt;\format[HTMLChars]{\journal}, &lt;/em&gt;\end{journal}__NEWLINE__\begin{booktitle} &lt;em&gt;\format[HTMLChars]{\booktitle}, &lt;/em&gt;\end{booktitle}__NEWLINE__\begin{school} &lt;em&gt;\format[HTMLChars]{\school}, &lt;/em&gt;\end{school}__NEWLINE__\begin{institution} &lt;em&gt;\format[HTMLChars]{\institution}, &lt;/em&gt;\end{institution}__NEWLINE__\begin{publisher} &lt;em&gt;\format[HTMLChars]{\publisher}, &lt;/em&gt;\end{publisher}__NEWLINE__\begin{year}&lt;b&gt;\year&lt;/b&gt;\end{year}\begin{volume}&lt;i&gt;, \volume&lt;/i&gt;\end{volume}\begin{pages}, \format[FormatPagesForHTML]{\pages} \end{pages}__NEWLINE__\begin{abstract}&lt;BR&gt;&lt;BR&gt;&lt;b&gt;Abstract: &lt;/b&gt; \format[HTMLChars]{\abstract} \end{abstract}__NEWLINE__\begin{review}&lt;BR&gt;&lt;BR&gt;&lt;b&gt;Review: &lt;/b&gt; \format[HTMLChars]{\review} \end{review}&lt;/dd&gt;__NEWLINE__&lt;p&gt;&lt;/p&gt;&lt;/font&gt;"/>
-            <entry key="markedEntryBackground0" value="255:255:180"/>
-            <entry key="pdfDirectory" value=""/>
-            <entry key="terDescending" value="false"/>
-            <entry key="promptBeforeUsingAutosave" value="true"/>
-            <entry key="groupAutoHide" value="true"/>
             <entry key="searchAll" value="false"/>
+            <entry key="markedEntryBackground0" value="255:255:180"/>
+            <entry key="posX" value="0"/>
+            <entry key="pdfDirectory" value=""/>
+            <entry key="preview0" value="&lt;font face=&quot;arial&quot;&gt;&lt;b&gt;&lt;i&gt;\bibtextype&lt;/i&gt;&lt;a name=&quot;\bibtexkey&quot;&gt;\begin{bibtexkey} (\bibtexkey)&lt;/a&gt;\end{bibtexkey}&lt;/b&gt;&lt;br&gt;__NEWLINE__\begin{author} \format[Authors(LastFirst,Initials,Semicolon,Amp),HTMLChars]{\author}&lt;BR&gt;\end{author}__NEWLINE__\begin{editor} \format[Authors(LastFirst,Initials,Semicolon,Amp),HTMLChars]{\editor} &lt;i&gt;(\format[IfPlural(Eds.,Ed.)]{\editor})&lt;/i&gt;&lt;BR&gt;\end{editor}__NEWLINE__\begin{title} \format[HTMLChars]{\title} \end{title}&lt;BR&gt;__NEWLINE__\begin{chapter} \format[HTMLChars]{\chapter}&lt;BR&gt;\end{chapter}__NEWLINE__\begin{journal} &lt;em&gt;\format[HTMLChars]{\journal}, &lt;/em&gt;\end{journal}__NEWLINE__\begin{booktitle} &lt;em&gt;\format[HTMLChars]{\booktitle}, &lt;/em&gt;\end{booktitle}__NEWLINE__\begin{school} &lt;em&gt;\format[HTMLChars]{\school}, &lt;/em&gt;\end{school}__NEWLINE__\begin{institution} &lt;em&gt;\format[HTMLChars]{\institution}, &lt;/em&gt;\end{institution}__NEWLINE__\begin{publisher} &lt;em&gt;\format[HTMLChars]{\publisher}, &lt;/em&gt;\end{publisher}__NEWLINE__\begin{year}&lt;b&gt;\year&lt;/b&gt;\end{year}\begin{volume}&lt;i&gt;, \volume&lt;/i&gt;\end{volume}\begin{pages}, \format[FormatPagesForHTML]{\pages} \end{pages}__NEWLINE__\begin{abstract}&lt;BR&gt;&lt;BR&gt;&lt;b&gt;Abstract: &lt;/b&gt; \format[HTMLChars]{\abstract} \end{abstract}__NEWLINE__\begin{review}&lt;BR&gt;&lt;BR&gt;&lt;b&gt;Review: &lt;/b&gt; \format[HTMLChars]{\review} \end{review}&lt;/dd&gt;__NEWLINE__&lt;p&gt;&lt;/p&gt;&lt;/font&gt;"/>
+            <entry key="terDescending" value="false"/>
+            <entry key="groupAutoHide" value="true"/>
+            <entry key="promptBeforeUsingAutosave" value="true"/>
+            <entry key="mainWindowPosY" value="329"/>
             <entry key="priDescending" value="true"/>
-            <entry key="saveInSpecifiedOrder" value="false"/>
+            <entry key="saveInSpecifiedOrder" value="true"/>
             <entry key="extraFileColumns" value="false"/>
             <entry key="pdfColumn" value="false"/>
-            <entry key="posY" value="23"/>
             <entry key="namesNatbib" value="true"/>
+            <entry key="posY" value="23"/>
             <entry key="citeCommandEmacs" value="\cite"/>
-            <entry key="CleanUpCase" value="true"/>
             <entry key="keyGenAlwaysAddLetter" value="true"/>
+            <entry key="CleanUpCase" value="false"/>
             <entry key="useConvertToEquation" value="false"/>
             <entry key="terSort" value=""/>
+            <entry key="duplicatesPosX" value="-2560"/>
             <entry key="importFileNamePattern" value="\bibtexkey"/>
             <entry key="bibLocationAsFileDir" value="true"/>
+            <entry key="duplicatesSizeX" value="800"/>
             <entry key="overwriteTimeStamp" value="true"/>
             <entry key="groupsDefaultField" value="keywords"/>
             <entry key="writeFieldCamelCase" value="true"/>
-            <entry key="lastUsedImport" value="__all"/>
+            <entry key="lastUsedImport" value="RIS"/>
             <entry key="emacsParameters" value="-n -e"/>
             <entry key="openLastEdited" value="true"/>
-            <entry key="useDefaultLookAndFeel" value="true"/>
             <entry key="tableOptFieldBackground" value="230:255:230"/>
-            <entry key="CleanUpRenamePDF" value="true"/>
+            <entry key="CleanUpRenamePDF" value="false"/>
+            <entry key="useDefaultLookAndFeel" value="true"/>
             <entry key="preferUrlDoi" value="false"/>
             <entry key="shortestToComplete" value="2"/>
-            <entry key="CleanUpLaTeX" value="true"/>
+            <entry key="CleanUpLaTeX" value="false"/>
             <entry key="overrideDefaultFonts" value="false"/>
+            <entry key="citeCommand" value="\cite"/>
+            <entry key="useCaseKeeperOnSearch" value="true"/>
             <entry key="writefieldSortStyle" value="0"/>
             <entry key="autoSaveInterval" value="5"/>
-            <entry key="useCaseKeeperOnSearch" value="true"/>
-            <entry key="pushToApplication" value="Insert selected citations into &amp;Emacs"/>
+            <entry key="pushToApplication" value="Emacs"/>
             <entry key="dialogWarningForDuplicateKey" value="true"/>
             <entry key="CleanUpUnicode" value="true"/>
             <entry key="markedEntryBackground1" value="255:220:180"/>
@@ -200,30 +209,39 @@
             <entry key="ctrlClick" value="false"/>
             <entry key="CleanUpPageNumbers" value="true"/>
             <entry key="abbrAuthorNames" value="true"/>
-            <entry key="exportTerDescending" value="true"/>
+            <entry key="mainWindowPosX" value="-2400"/>
+            <entry key="exportTerDescending" value="false"/>
             <entry key="fileColumn" value="true"/>
+            <entry key="selectedFetcherIndex" value="7"/>
             <entry key="exportTerSort" value=""/>
             <entry key="warnAboutDuplicatesInInspection" value="true"/>
             <entry key="keyGenFirstLetterA" value="true"/>
             <entry key="generateKeysBeforeSaving" value="true"/>
             <entry key="CleanUpUnits" value="true"/>
             <entry key="tableColorCodesOn" value="true"/>
-            <entry key="autoCompFirstNameMode" value="both"/>
+            <entry key="stringsPosX" value="-2140"/>
             <entry key="fontStyle" value="0"/>
+            <entry key="autoCompFirstNameMode" value="both"/>
             <entry key="groupKeywordSeparator" value=", "/>
             <entry key="CleanUpUpgradeExternalLinks" value="false"/>
-            <entry key="stringsPosX" value="420"/>
             <entry key="stringsSizeX" value="600"/>
             <entry key="saveInTitleOrder" value="false"/>
             <entry key="importInspectionDialogWidth" value="650"/>
             <entry key="searchReq" value="true"/>
-            <entry key="saveTerDescending" value="true"/>
+            <entry key="saveTerDescending" value="false"/>
             <entry key="savePriDescending" value="false"/>
+            <entry key="mainWindowSizeX" value="1280"/>
             <entry key="CleanUpHTML" value="true"/>
-            <entry key="exportSecDescending" value="true"/>
+            <entry key="exportSecDescending" value="false"/>
           </map>
           <node name="labelPattern">
             <map/>
+          </node>
+          <node name="logic">
+            <map/>
+            <node name="labelPattern">
+              <map/>
+            </node>
           </node>
         </node>
       </node>
